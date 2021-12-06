@@ -43,7 +43,7 @@ export default function Storys (){
                     <img src="assets/img/Vector.png" />
                 </div>
             {peoples.map((c,i) => <Boxstory people={c} key={"A"+i}/> )}
-            </section>
+        </section>
 );
 
 }

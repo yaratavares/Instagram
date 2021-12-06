@@ -1,4 +1,5 @@
 export default function Navbar (){
+const icones = ["paper-plane-outline", "compass-outline", "heart-outline", "person-outline"]
 
 return (
     <header>
@@ -19,10 +20,7 @@ return (
                 <input type="text" id="procurar" placeholder="Pesquisar"/>
             </div>
             <div class="itens-lateral-direita">
-                <ion-icon name="paper-plane-outline"></ion-icon>
-                <ion-icon name="compass-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="person-outline"></ion-icon>
+                {icones.map((icon) => <ion-icon name={icon}></ion-icon>)}
             </div>
         </div>
     </header>
