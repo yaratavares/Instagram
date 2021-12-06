@@ -13,7 +13,7 @@ return (
                 </div>
             </div> 
             <div class= "logo-mobile">
-                <img src="img/logo.png" />
+                <img src="assets/img/logo.png" />
             </div>   
             <div class="barra-de-pesquisa">
                 <input type="text" id="procurar" placeholder="Pesquisar"/>
