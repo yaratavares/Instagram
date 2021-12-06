@@ -5,7 +5,7 @@ export default function Posts () {
         {
             image: "meowed 1.png",
             name: "meowed",
-            image_post: "gato-telefone 1.jpg",
+            image_post: "img/gato-telefone 1.jpg",
             curtida_principal_name: "respondeai",
             curtida_principal_foto: "respondeai 1.png",
             curtidas: "outras 101.523 pessoas"
@@ -13,7 +13,7 @@ export default function Posts () {
         {
             image: "barked 1.png",
             name: "barked",
-            image_post: "dog 1.jpg",
+            image_post: "img/dog 1.jpg",
             curtida_principal_name: "adorable_animals",
             curtida_principal_foto: "adorableanimals 1.png",
             curtidas: "outras 99.159 pessoas"
@@ -21,7 +21,7 @@ export default function Posts () {
         {
             image: "meowed 1.png",
             name: "meowed",
-            image_post: "gato-telefone 1.jpg",
+            image_post: "video/video.ogv",
             curtida_principal_name: "respondeai",
             curtida_principal_foto: "respondeai 1.png",
             curtidas: "outras 101.523 pessoas"

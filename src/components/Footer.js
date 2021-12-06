@@ -3,7 +3,7 @@ export default function Footer (){
     
     return (
         <footer>
-            {icones.map((icon) => <ion-icon name={icon}></ion-icon>)}
+            {icones.map((icon, i) => <ion-icon name={icon} key = {"J" +i}></ion-icon>)}
         </footer>
     );
 }

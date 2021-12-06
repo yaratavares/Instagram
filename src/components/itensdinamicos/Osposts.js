@@ -8,7 +8,8 @@ export default function Osposts (object, key){
                 </div>
                 <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
             </div>
-            <img class= "foto-principal" src={"assets/img/" + object.post.image_post} />
+            <Imagem tipo= {object.post.image_post}/> 
+            
             <div class="barra-interação">
                 <div class= "direita">
                     <ion-icon name="heart-outline"></ion-icon>
@@ -24,5 +25,22 @@ export default function Osposts (object, key){
                 <p>Curtido por <strong>{object.post.curtida_principal_name}</strong> e <strong>{object.post.curtidas}</strong></p>
             </div>
         </section>
+    );
+}
+
+function Imagem (object){
+    let tag;
+
+    if ((object.tipo).includes("video")){
+        tag = (
+            <video class= "video-principal" volume="false" muted controls autoPlay>
+                <source src={"assets/" + object.tipo} />
+            </video>)
+    } else {
+        tag = <img class= "foto-principal" src={"assets/" + object.tipo} />
+    }
+
+    return (
+        tag
     );
 }

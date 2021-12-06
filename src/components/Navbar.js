@@ -20,7 +20,7 @@ return (
                 <input type="text" id="procurar" placeholder="Pesquisar"/>
             </div>
             <div class="itens-lateral-direita">
-                {icones.map((icon) => <ion-icon name={icon}></ion-icon>)}
+                {icones.map((icon, i) => <ion-icon name={icon} key = {"I" + i} ></ion-icon>)}
             </div>
         </div>
     </header>
