@@ -1,6 +1,6 @@
 # Instagram
 
-![Badge](https://img.shields.io/badge/Feito-06/12/2021-%?style=for-the-badge)
+![Badge](https://img.shields.io/badge/Feito-06/12/2021-%0577B7c1?style=for-the-badge)
 ## 💻 Projeto e Objetivo
 
 Nesse projeto foi feita uma réplica do Instgram para que fosse possível treinar os conceitos de React,
